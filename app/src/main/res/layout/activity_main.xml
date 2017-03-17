@@ -16,10 +16,10 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn_open"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:onClick="actionButtonOpen"
             android:text="OPEN" />
 
         <Button
@@ -36,4 +36,10 @@
             android:onClick="actionButtonAlarm"
             android:text="ALARM" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_estado_garage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" />
 </RelativeLayout>
